@@ -46,32 +46,62 @@
         grid-column: 1;
     }
 
-    .first-section-responsiv-text{
+    .first-section-responsiv-text {
         display: grid;
         justify-content: center;
     }
 
-    .black{
+    .black {
         padding-top: 15px;
     }
 
-    .first-section-responsiv-paragraph{
+    .first-section-responsiv-paragraph {
         text-align: center;
     }
 
-    .first-section-responsiv-btn{
+    .first-section-responsiv-btn {
         display: flex;
         justify-content: center;
     }
 
-    .second-section{
+    .second-section {
         display: grid;
     }
 
     .second-section-image {
         background-image: url('g3-architects/images/architect.png');
-        height: 110vh;
-        width: 50vw;
+        height: 120vh;
+        width: 100vw;
     }
 
+    .second-section-reponsiv-text {
+        display: grid;
+        justify-content: center;
+    }
+
+    .second-section-reponsiv-title {
+        text-align: center;
+    }
+
+    .second-section-tittle {
+        border-left: 5px solid white;
+    }
+
+    .second-section-text {
+        text-align: center;
+    }
+
+    .third-section {
+        padding-top: 225vh;
+    }
+
+    .third-secton-responsiv-title{
+        padding-left: 25vw;
+    }
+
+     .third-secton-responsiv-text {
+        text-align: center;
+    }
+
+    /* thish is main - end */
 }
