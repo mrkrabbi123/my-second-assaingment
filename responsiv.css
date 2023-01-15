@@ -95,12 +95,36 @@
         padding-top: 225vh;
     }
 
-    .third-secton-responsiv-title{
+    .third-secton-responsiv-title {
         padding-left: 25vw;
     }
 
-     .third-secton-responsiv-text {
+    .third-secton-responsiv-text {
         text-align: center;
+    }
+
+    .third-section-details {
+        padding-left: 75px;
+        width: 70vw;
+        gap: 30px;
+    }
+
+    .forth-section-title h1{
+        text-align: center;
+    }
+
+    .forth-section-title p{
+        text-align: center;
+    }
+
+    .forth-section-img-area{
+        display: grid;
+        justify-content: center;
+    }
+
+    .forth-section-img-area img{
+        height: 5vh;
+        width: 20vw;
     }
 
     /* thish is main - end */
