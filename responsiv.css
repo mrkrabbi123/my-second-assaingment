@@ -1,14 +1,77 @@
 @media only screen and (max-width:577px) {
-    .nav-header {
+
+    /* thish is header - start */
+    header {
         display: grid;
         justify-content: center;
     }
 
+    .nav-header {
+        display: grid;
+        padding-left: 30vw;
+    }
+
     .header-option li {
         display: grid;
-        justify-content: center;
-        /* width: 50vw; */
+        padding-left: 10vw;
         grid-column: 1;
+    }
+
+    .image-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-section img {
+        width: 80vw;
+        height: 40vh;
+    }
+
+    /* thish is header - start */
+
+    /* thish is main - start */
+
+    .first-section {
+        display: grid;
+        justify-content: center;
+    }
+
+    .first-section-img {
+        padding-left: 10vw;
+    }
+
+    .first-section-img img {
+        width: 80vw;
+        height: 40vh;
+        grid-column: 1;
+    }
+
+    .first-section-responsiv-text{
+        display: grid;
+        justify-content: center;
+    }
+
+    .black{
+        padding-top: 15px;
+    }
+
+    .first-section-responsiv-paragraph{
+        text-align: center;
+    }
+
+    .first-section-responsiv-btn{
+        display: flex;
+        justify-content: center;
+    }
+
+    .second-section{
+        display: grid;
+    }
+
+    .second-section-image {
+        background-image: url('g3-architects/images/architect.png');
+        height: 110vh;
+        width: 50vw;
     }
 
 }
