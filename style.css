@@ -5,9 +5,9 @@
 
 /* this is header - start  */
 
-.header {
+header {
     background: rgba(255, 144, 14, 0.1);
-    height: 100vh;
+    height: 150vh;
     width: 100%;
 
 }
@@ -42,13 +42,273 @@
     left: 870px;
     top: 463px;
     border-radius: 8px;
-    background:#FF900E;
+    background: #FF900E;
     color: white;
     border: 5px solid #FF900E;
 }
 
 .image-section img {
     width: 90vw;
+    height: 90vh;
 }
 
 /* this is header - end  */
+
+
+.first-section {
+    display: flex;
+    justify-content: center;
+}
+
+.first-section-img {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.first-section-text {
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.first-section-img img {
+    height: 50vh;
+    width: 25vw;
+}
+
+.second-section {
+    height: 50vh;
+}
+
+.black {
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.orange {
+    color: #FF900E;
+}
+
+.silver {
+    color: dimgrey;
+    font-size: 30px;
+}
+
+.orange strong {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #FF900E;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    color: whitesmoke;
+    border: 5px solid #FF900E;
+}
+
+
+
+
+
+/* .second-section start */
+
+.second-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 90PX;
+}
+
+.second-section-image {
+    background-image: url('g3-architects/images/architect.png');
+    height: 110vh;
+    width: 50vw;
+}
+
+.second-section-name-area {
+    padding-top: 600px;
+}
+
+.second-section-name {
+    height: 20vh;
+    width: 50vh;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    background-color: #FF900E;
+}
+
+.second-section-tittle {
+    border-left: 5px solid #FF900E;
+}
+
+.second-section-tittle strong {
+    padding-left: 10px;
+}
+
+.second-section-info {
+    padding-left: 20px;
+}
+
+.seceond-section-btn-area {
+    padding-bottom: 100px;
+}
+
+.seceond-section-btn {
+    background-color: #FF900E;
+    height: 20vh;
+    width: 20vw;
+    text-align: center;
+}
+
+/* third-section */
+.third-section {
+    padding-top: 90vh;
+}
+
+.third-section-details {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.third-secton-text {
+    padding-left: 100px;
+}
+
+.third-section-details-area:hover {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #FF900E;
+    border-radius: 10px;
+    animation-name: rabbi;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    direction: 5s;
+    animation-fill-mode: both;
+}
+
+@keyframes rabbi {
+    from {
+        width: 30vw;
+    }
+
+    to {
+        width: 15vw;
+    }
+}
+
+.forth-section {
+    display: grid;
+    justify-content: center;
+}
+
+.forth-section-img-area {
+    display: flex;
+    gap: 100px;
+}
+
+.forth-section-title {
+    display: grid;
+    justify-content: center;
+}
+
+.forth-section-img-area img {
+    height: 6vh;
+    width: 10vw;
+}
+
+.fifth-section {
+    display: grid;
+    padding-left: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.fifth-section-title-area {
+    display: flex;
+    justify-content: center;
+}
+
+.fifth-section-title {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #FF900E;
+    border-bottom: 5px solid red;
+    width: 25vw;
+}
+
+.fifth-section-division-one {
+    height: 50vh;
+    width: 45vw;
+    color: whitesmoke;
+    background-color: #10544e;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.fifth-section-division-two {
+    height: 50vh;
+    width: 45vw;
+    color: whitesmoke;
+    background-color: #320638;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.fifth-section-division-three {
+    height: 50vh;
+    width: 45vw;
+    color: whitesmoke;
+    background-color: #751c1c;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.fifth-section-division-four {
+    height: 50vh;
+    width: 45vw;
+    color: whitesmoke;
+    background-color: #30156b;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.fifth-section-division-btn {
+    background-color: whitesmoke;
+    height: 5vh;
+    width: 10vw;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.fifth-section-division {
+    height: 5vh;
+    width: 10vw;
+}
+
+
+
+footer{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+}

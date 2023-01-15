@@ -1,0 +1,14 @@
+@media only screen and (max-width:577px) {
+    .nav-header {
+        display: grid;
+        justify-content: center;
+    }
+
+    .header-option li {
+        display: grid;
+        justify-content: center;
+        /* width: 50vw; */
+        grid-column: 1;
+    }
+
+}
