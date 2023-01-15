@@ -70,8 +70,8 @@
 
     .second-section-image {
         background-image: url('g3-architects/images/architect.png');
-        height: 120vh;
-        width: 100vw;
+        height: 80vh;
+        width: 120vw;
     }
 
     .second-section-reponsiv-text {
@@ -109,23 +109,69 @@
         gap: 30px;
     }
 
-    .forth-section-title h1{
+    .forth-section-title h1 {
         text-align: center;
     }
 
-    .forth-section-title p{
+    .forth-section-title p {
         text-align: center;
     }
 
-    .forth-section-img-area{
+    .forth-section-img-area {
         display: grid;
         justify-content: center;
     }
 
-    .forth-section-img-area img{
+    .forth-section-img-area img {
         height: 5vh;
         width: 20vw;
     }
 
+    .fifth-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .fifth-section-division-one {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .fifth-section-division-one-responsiv {
+        text-align: center;
+    }
+
+    .fifth-section-division-two {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .fifth-section-division-two-responsiv {
+        text-align: center;
+    }
+
+    .fifth-section-division-three {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .fifth-section-division-three-responsiv {
+        text-align: center;
+    }
+
+    .fifth-section-division-four {
+        width: 90vw;
+        height: 60vh;
+    }
+
+    .fifth-section-division-four-responsiv {
+        text-align: center;
+    }
+
+    .fifth-section-division-btn {
+        width: 20vw;
+    }
+
     /* thish is main - end */
+
 }
